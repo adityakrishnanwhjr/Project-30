@@ -64,8 +64,10 @@ function setup() {
 function draw() {
   background(56,44,44); 
  
-  textSize(20);
   fill("lightyellow");
+  textSize(20);
+  text("Drag the polygon to hit the blocks",50,50);
+  text("Use space key to get second chance",50,80);
   imageMode(CENTER);
   image(polygon_img,polygon.position.x,polygon.position.y,40,40);
   
